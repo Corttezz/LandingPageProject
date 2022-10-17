@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+body {
+    background-color: rgb(252, 233, 227);
+    color: black;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+@media(max-width: 1200px){
+    body{
+        width: 1000px;
+    }
+}
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 4px solid rgb(207, 69, 105);
+}
+
+#title {
+    flex-direction: column;
+}
+
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 30px;
+    text-shadow: 0.1em 0.1em rgb(246, 203, 210);
+
+}
+
+
+main {
+    background-image: url(../components/imgs/WhatsApp\ Image\ 2022-10-16\ at\ 20.09.38.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+    border-bottom: 4px solid rgb(207, 69, 105);
+
+}
+
+main div p {
+
+    font-size: 30px;
+    line-height: 30px;
+    background-color: rgb(254, 199, 119);
+    border-radius: 80px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+article img {
+    padding-top: 5%;
+    padding-left: 10%;
+    position: absolute;
+    display: block;
+}
+
+main div {
+    opacity: 0.86;
+    display: flex;
+    width: 35%;
+}
+#mainDiv{
+    border-bottom: 4px solid rgb(207, 69, 105);
+}
+
+#d1 {
+    position: absolute;
+    padding-left: 6%;
+    padding-bottom: 0%;
+}
+
+
+#d2 {
+    padding-top: 16%;
+    padding-left: 60%;
+    padding-bottom: 13%;
+}
+
+#d3 {
+    position: absolute;
+    padding-left: 2%;
+}
+
+#d4 {
+    padding-top: 10%;
+    padding-left: 61%;
+}
+
+#d5 {
+    padding-top: 2%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+#wordstyleAgressive {
+    color: rgb(209, 71, 97);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+#wordstyleModerated {
+    color: rgb(209, 71, 97);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(207, 69, 105);
+    font-weight: bold;
+}
+
+
+li:hover {
+    text-shadow: 0.1em 0.1em rgb(207, 69, 105);
+    color: white;
+    background-color: rgb(226, 132, 157);
+    border-radius: 1000px;
+    padding: 24px;
+    margin: 20px;
+    transition: 0.4s all;
+    box-shadow: 0.1em 0.1em rgb(246, 203, 210);
+}
+#s-m{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: auto;
+    padding-left: 90%;
+    padding-top: 17%;
+}
+#s-m a{
+    display: inline-flex;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(246, 203, 210);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0,4s;
+    font-size: 60px;
+}
+
+#s-m a:hover{
+    background-color: rgb(218, 172, 184);
+}
+#s-m a i{
+    transition: 0.4s;
+}
+#s-m a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+}
+
+h2{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#fonte p{
+    font-size: 15px;
+    color: black;
+    line-height: 20px;
+}
+#fonte{
+padding-top: 20%;
+}
